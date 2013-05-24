@@ -1,4 +1,4 @@
-public class SomaRecursiva{
+public class Soma{
 	
 	private static int soma(int vetor[] , int tamanho){
 		return (tamanho > 0) ? vetor[tamanho - 1] + soma(vetor, tamanho - 1): 0;
